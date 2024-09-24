@@ -17,7 +17,7 @@
 
 <body>
     <div class="container">
-        <nav>
+        <nav class="main-nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="protection.http"></a>Methods of Protection</li>
@@ -29,55 +29,91 @@
         <nav id="navbar-example3" class="navbar navbar-light bg-light side-navigation">
             <nav class="nav nav-pills flex-column mr-auto">
                 <a class="nav-link" href="#ramsomware-sidenav">Ransomware</a>
-                <a class="nav-link" href="">Phishing</a>
-                <a class="nav-link" href="">Malware</a>
-                <a class="nav-link" href="">Social engineering</a>
-                <a class="nav-link" href="">Outdated software</a>
-                <a class="nav-link" href="">Vulnerabilities in web applications and networks</a>
+                <a class="nav-link" href="#phishing-sidenav">Phishing</a>
+                <a class="nav-link" href="malware-sidenav">Malware</a>
+                <a class="nav-link" href="social-engineering-sidenav">Social engineering</a>
+                <a class="nav-link" href="outdated-software-sidenav">Outdated software</a>
+                <a class="nav-link" href="vulnerable-sidenav">Vulnerabilities in web applications and networks</a>
             </nav>
         </nav>
     </div>
     <div class="container home-screen">
         <h1>Be Aware. Protect Yourself</h1>
     </div>
-    <div class="container ramsomware">
-        <h2 id="ramsomware-sidenav">Ransomware: Extortion Software</h2>
-        <p class="descr">
-            Ransomware is a type of malware that blocks access to your data or even the entire system, demanding a
-            ransom for recovery. The files are encrypted, and attackers threaten to delete or further spread them if you
-            do not comply with their demands.
-        </p>
-        <h3>How does it happen?</h2>
-        <p class="how">
-            Ransomware attacks typically spread through phishing emails with malicious links or attachments, infected
-            websites, and software vulnerabilities. Once infected, users are presented with a ransom message outlining
-            the payment terms, often in cryptocurrency like Bitcoin, making the transactions hard to trace.
-        </p>
-        <h3>Consequences</h2>
-        <p class="consequences">
-            The impact of Ransomware attacks can be devastating: data loss, business interruptions, substantial
-            financial losses, and damage to reputation.
-        </p>
-    </div>
-    <div class="container phishing">
-        <h1 id="phishing-sidenav"></h1>
+    <div data-spy="scroll" data-target="#navbar-example3" data-offset="0">
+        <div class="container ramsomware">
+            <h2 id="ramsomware-sidenav">Ransomware: Extortion Software</h2>
+            <p class="descr">
+                Ransomware is a type of malware that blocks access to your data or even the entire system, demanding a
+                ransom for recovery. The files are encrypted, and attackers threaten to delete or further spread them if
+                you
+                do not comply with their demands.
+            </p>
+            <h3>How does it happen?</h3>
+            <p class="how">
+                Ransomware attacks typically spread through phishing emails with malicious links or attachments,
+                infected
+                websites, and software vulnerabilities. Once infected, users are presented with a ransom message
+                outlining
+                the payment terms, often in cryptocurrency like Bitcoin, making the transactions hard to trace.
+            </p>
+            <h3>Consequences</h3>
+            <p class="consequences">
+                The impact of Ransomware attacks can be devastating: data loss, business interruptions, substantial
+                financial losses, and damage to reputation.
+            </p>
+        </div>
+        <div class="container phishing">
+            <h2 id="phishing-sidenav">Phishing</h2>
+            <p>
+                Phishing is a type of cyberattack where attackers try to trick users into revealing confidential data.
+                These
+                attacks often aim to steal passwords, financial information, or personal data that can be used for
+                fraud.
+            </p>
+            <p>
+                Phishing attacks typically start with fake emails or messages that appear to be official notifications
+                from
+                well-known companies. The user is asked to click on a link to a fake website or download a malicious
+                attachment, where they are prompted to enter their information.
+            </p>
+            <p>
+                Victims of phishing may experience identity theft, financial loss, and compromised accounts. This can
+                lead
+                to long-term security issues and difficulties recovering access.
+            </p>
+        </div>
+        <div class="container malware">
+            <h2 id="malware-sidenav">Malware: Malicious Software</h2>
 
-    </div>
-    <div class="container malware">
-        <h1 id="phishing-sidenav"></h1>
+        </div>
+        <div class="container social-engineering">
+            <h2 id="social-engineering-sidenav"></h2>
+            <p>
+                Malware is software designed to harm a computer, network, or user. It includes viruses, trojans,
+                spyware,
+                and ransomware that can steal data or disrupt system operations.
+            </p>
+            <p>
+                Malware infects devices through compromised files, links, downloadable programs, or system
+                vulnerabilities.
+                Once infected, it can spy on users, block access to data, or even completely crash the system.
+            </p>
+            <p>
+                The impact can range from slowing down a device to data loss, identity theft, financial damage, and loss
+                of
+                control over the system.
+            </p>
 
-    </div>
-    <div class="container social-engineering">
-        <h1 id="phishing-sidenav"></h1>
+        </div>
+        <div class="container outdated-software">
+            <h2 id="outdated-software-sidenav"></h2>
 
-    </div>
-    <div class="container outdated-software">
-        <h1 id="phishing-sidenav"></h1>
+        </div>
+        <div class="container vulnerable">
+            <h2 id="vulnerable-sidenav"></h2>
 
-    </div>
-    <div class="container vulnerable">
-        <h1 id="phishing-sidenav"></h1>
-
+        </div>
     </div>
 </body>
 
