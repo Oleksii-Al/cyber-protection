@@ -6,7 +6,15 @@
 .home-screen {
     text-align:center;
     padding: 20%;
-    background-color: lightcoral;
+    background: url(../images/circle-5090539.jpg) no-repeat bottom left fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.home-screen h1 {
+    color: white;
 }
 
 /*Side navigation*/
@@ -15,7 +23,7 @@
 }
 
 #navbar-example3 {
-    margin-left: 2rem;
+    margin: 0;
 }
 
 .section {
