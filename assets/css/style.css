@@ -59,6 +59,8 @@ padding: 0;
 
 .content {
     padding: 50px 50px;
+    box-sizing: border-box;
+
 }
 .content h2, .content h3, .content p {
     margin-bottom: 50px;
@@ -74,4 +76,8 @@ padding: 0;
 
 .phishing, .social-engineering, .vulnerable {
     background-color: #bde1e3;
+}
+
+.outline i{
+    margin-bottom: 5px;
 }
