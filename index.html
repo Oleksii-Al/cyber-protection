@@ -17,31 +17,49 @@
     <title>Cyber Shield</title>
 </head>
 
-<body data-spy="scroll" data-target="#navbar-example3" data-offset="250">
-    <div class="container">
-        <nav class="main-nav">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="protection.http"></a>Methods of Protection</li>
-                <li><a href="resources.http"></a>Helpful Resources</li>
-            </ul>
+<body data-spy="scroll" data-target="#navbar-example3" data-offset="200">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Cyber Shield</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Navbar-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active ml-2">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item ml-2">
+                        <a class="nav-link" href="#">Methods of Protection</a>
+                    </li>
+                    <li class="nav-item ml-2">
+                        <a class="nav-link" href="#">Helpful Resources</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
+
+
     </div>
 
     <!--Homescreen-->
     <div class="container-fluid home-screen">
-        <div class="section">
-            <h1>Be Aware. Protect Yourself</h1>
-        </div>
+        <h1>
+            Be Aware
+            <br>
+            Protect Yourself
+        </h1>
     </div>
     <!-- / Homescreen-->
 
     <!--Side Navbar-->
-    <div id="homepage" class="container-fluid row">
-        <div class="sidebar col-4 ">
+    <div id="homepage" class="container-fluid">
+        <div class="sidebar">
             <div id="navbar-example3" class="navbar navbar-light side-navigation d-none d-md-block fixed">
                 <nav class="nav nav-pills flex-column">
-                    <a class="nav-link color" href="#ramsomware-sidenav">Ransomware</a>
+                    <a class="nav-link color" href="#ransomware-sidenav">Ransomware</a>
                     <a class="nav-link" href="#phishing-sidenav">Phishing</a>
                     <a class="nav-link" href="#malware-sidenav">Malware</a>
                     <a class="nav-link" href="#social-engineering-sidenav">Social engineering</a>
@@ -51,7 +69,7 @@
             </div>
             <nav id="navbar-example3" class="navbar navbar-light side-navigation d-md-none fixed">
                 <nav class="nav nav-pills flex-column mr-auto">
-                    <a class="nav-link" href="#ramsomware-sidenav"><i class="fa-solid fa-circle"></i></a>
+                    <a class="nav-link" href="#ransomware-sidenav"><i class="fa-solid fa-circle"></i></a>
                     <a class="nav-link" href="#phishing-sidenav"><i class="fa-solid fa-circle"></i></a>
                     <a class="nav-link" href="#malware-sidenav"><i class="fa-solid fa-circle"></i></a>
                     <a class="nav-link" href="#social-engineering-sidenav"><i class="fa-solid fa-circle"></i></a>
@@ -63,104 +81,289 @@
         <!-- /Side Navbar-->
 
         <!--Content-->
-        <div class="col-8">
-            <div>
 
-                <!--Ransomware-->
-                <div class="ramsomware section">
-                    <h2 id="ramsomware-sidenav">Ransomware: Extortion Software</h2>
-                    <p class="descr">
-                        Ransomware is a type of malware that blocks access to your data or even the entire system,
-                        demanding
-                        a
-                        ransom for recovery. The files are encrypted, and attackers threaten to delete or further spread
-                        them if
-                        you
-                        do not comply with their demands.
-                    </p>
-                    <h3>How does it happen?</h3>
-                    <p class="how">
-                        Ransomware attacks typically spread through phishing emails with malicious links or attachments,
-                        infected
-                        websites, and software vulnerabilities. Once infected, users are presented with a ransom message
-                        outlining
-                        the payment terms, often in cryptocurrency like Bitcoin, making the transactions hard to trace.
-                    </p>
-                    <h3>Consequences</h3>
-                    <p class="consequences">
-                        The impact of Ransomware attacks can be devastating: data loss, business interruptions,
-                        substantial
-                        financial losses, and damage to reputation.
-                    </p>
-                </div>
-                <!-- /Ransomware-->
-
-                <!--Phishing-->
-                <div class="phishing section">
-                    <h2 id="phishing-sidenav">Phishing</h2>
-                    <p>
-                        Phishing is a type of cyberattack where attackers try to trick users into revealing confidential
-                        data.
-                        These
-                        attacks often aim to steal passwords, financial information, or personal data that can be used
-                        for
-                        fraud.
-                    </p>
-                    <p>
-                        Phishing attacks typically start with fake emails or messages that appear to be official
-                        notifications
-                        from
-                        well-known companies. The user is asked to click on a link to a fake website or download a
-                        malicious
-                        attachment, where they are prompted to enter their information.
-                    </p>
-                    <p>
-                        Victims of phishing may experience identity theft, financial loss, and compromised accounts.
-                        This
-                        can
-                        lead
-                        to long-term security issues and difficulties recovering access.
-                    </p>
-                </div>
-                <!-- /Phishing-->
-
-                <!--Malware-->
-                <div class="malware section">
-                    <h2 id="malware-sidenav">Malware: Malicious Software</h2>
-                    <p>
-                        Malware is software designed to harm a computer, network, or user. It includes viruses, trojans,
-                        spyware,
-                        and ransomware that can steal data or disrupt system operations.
-                    </p>
-                    <p>
-                        Malware infects devices through compromised files, links, downloadable programs, or system
-                        vulnerabilities.
-                        Once infected, it can spy on users, block access to data, or even completely crash the system.
-                    </p>
-                    <p>
-                        The impact can range from slowing down a device to data loss, identity theft, financial damage,
-                        and
-                        loss
-                        of
-                        control over the system.
-                    </p>
-                </div>
-                <div class="social-engineering section">
-                    <h2 id="social-engineering-sidenav"></h2>
-
-                </div>
-                <!-- /Malware-->
-
-
-                <div class="outdated-software section">
-                    <h2 id="outdated-software-sidenav"></h2>
-
-                </div>
-                <div class="vulnerable section">
-                    <h2 id="vulnerable-sidenav"></h2>
-
+        <div class="content-container">
+            <!--Ransomware-->
+            <div class="row ransomware">
+                <div class="col-3"></div>
+                <div class="col-9">
+                    <div class="section content">
+                        <h2 id="ransomware-sidenav">Ransomware: Extortion Software</h2>
+                        <p class="descr">
+                            Ransomware is a type of malware that blocks access to your data or even the entire system,
+                            demanding
+                            a
+                            ransom for recovery. The files are encrypted, and attackers threaten to delete or further
+                            spread
+                            them if
+                            you
+                            do not comply with their demands.
+                        </p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>How does it happen?</h3>
+                                <p class="how">
+                                    Ransomware attacks typically spread through phishing emails with malicious links or
+                                    attachments,
+                                    infected
+                                    websites, and software vulnerabilities. Once infected, users are presented with a
+                                    ransom
+                                    message
+                                    outlining
+                                    the payment terms, often in cryptocurrency like Bitcoin, making the transactions
+                                    hard to
+                                    trace.
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <h3>Consequences</h3>
+                                <p class="consequences">
+                                    The impact of Ransomware attacks can be devastating: data loss, business
+                                    interruptions,
+                                    substantial
+                                    financial losses, and damage to reputation.
+                                </p>
+                                <div class="card">
+                                    <img src="assets/images/circle-5090539.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Consequences</h3>
+                                        <p class="card-text">The impact of Ransomware attacks can be devastating: data
+                                            loss, business
+                                            interruptions,
+                                            substantial
+                                            financial losses, and damage to reputation.</p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <!-- /Ransomware-->
+
+            <!--Phishing-->
+            <div class="row phishing">
+                <div class="col-3"></div>
+                <div class="col-9">
+                    <div class="section content">
+                        <h2 id="phishing-sidenav">Phishing</h2>
+                        <p class="descr">
+                            Phishing is a type of cyberattack where attackers try to trick users into revealing
+                            confidential
+                            data.
+                            These
+                            attacks often aim to steal passwords, financial information, or personal data that can be
+                            used
+                            for
+                            fraud.
+                        </p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>How does it happen?</h3>
+                                <p class="how">
+                                    Phishing attacks typically start with fake emails or messages that appear to be
+                                    official
+                                    notifications
+                                    from
+                                    well-known companies. The user is asked to click on a link to a fake website or
+                                    download
+                                    a
+                                    malicious
+                                    attachment, where they are prompted to enter their information.
+                                </p>
+                            </div>
+
+                            <div class="col-md-6">
+                                <h3>Consequences</h3>
+                                <p class="consequences">
+                                    Victims of phishing may experience identity theft, financial loss, and compromised
+                                    accounts.
+                                    This
+                                    can
+                                    lead
+                                    to long-term security issues and difficulties recovering access.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Phishing-->
+
+            <!--Malware-->
+            <div class="row malware">
+                <div class="col-3"></div>
+                <div class="col-9">
+                    <div class="section content">
+                        <h2 id="malware-sidenav">Malware: Malicious Software</h2>
+                        <p class="descr">
+                            Malware is software designed to harm a computer, network, or user. It includes viruses,
+                            trojans,
+                            spyware,
+                            and ransomware that can steal data or disrupt system operations.
+                        </p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>How does it happen?</h3>
+                                <p class="how">
+                                    Malware infects devices through compromised files, links, downloadable programs, or
+                                    system
+                                    vulnerabilities.
+                                    Once infected, it can spy on users, block access to data, or even completely crash
+                                    the
+                                    system.
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <h3>Consequences</h3>
+                                <p class="consequences">
+                                    The impact can range from slowing down a device to data loss, identity theft,
+                                    financial
+                                    damage,
+                                    and
+                                    loss
+                                    of
+                                    control over the system.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Malware-->
+
+            <!--Engineering-->
+            <div class="row social-engineering">
+                <div class="col-3"></div>
+                <div class="col-9">
+                    <div class="section content">
+                        <h2 id="social-engineering-sidenav">Social Engineering</h2>
+                        <p class="descr">
+                            Social engineering is a cyber attack method that relies on manipulating people to obtain
+                            confidential information or access to systems. Unlike technical hacks, social engineering
+                            attacks
+                            exploit human trust.
+                        </p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>How does it happen?</h3>
+                                <p class="how">
+                                    Attackers create convincing scenarios to trick victims into revealing passwords,
+                                    financial
+                                    data,
+                                    or
+                                    other sensitive information. This can happen through fake phone calls, phishing
+                                    emails,
+                                    or
+                                    even
+                                    in-person interactions where the attacker pretends to be a legitimate entity.
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <h3>Consequences</h3>
+                                <p class="consequences">
+                                    The impact of social engineering attacks includes data breaches, compromised
+                                    accounts,
+                                    financial
+                                    losses, and reputational risks for both individuals and organizations.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Engineering-->
+
+            <!--Software-->
+            <div class="row outdated-software">
+                <div class="col-3"></div>
+                <div class="col-9">
+                    <div class="section content">
+                        <h2 id="outdated-software-sidenav">Outdated Software</h2>
+                        <p class="descr">
+                            Outdated software is software that no longer receives security updates. Programs without the
+                            latest
+                            patches are vulnerable to new types of attacks and can become a weak point in the system.
+                        </p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>How does it happen?</h3>
+                                <p class="how">
+
+                                    Attackers exploit vulnerabilities in outdated software versions to infiltrate
+                                    systems.
+                                    When
+                                    software
+                                    is not updated, it misses critical security patches, leaving it open to viruses,
+                                    exploits,
+                                    and
+                                    other
+                                    cyberattacks.
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <h3>Consequences</h3>
+                                <p class="consequences">
+                                    Using outdated software can result in system breaches, data leaks, application
+                                    malfunctions,
+                                    and
+                                    financial losses. Organizations may also face penalties for failing to comply with
+                                    security
+                                    standards.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Software-->
+
+            <!--Vulnerable-->
+            <div class="row vulnerable">
+                <div class="col-3"></div>
+                <div class="col-9">
+                    <div class="section content">
+                        <h2 id="vulnerable-sidenav">Vulnerabilities in Web Applications and Networks</h2>
+                        <p class="descr">
+                            Vulnerabilities in web applications and networks are weaknesses in code or configurations
+                            that
+                            attackers can exploit to gain unauthorized access to data or systems. These vulnerabilities
+                            may
+                            result from coding errors, improper server configurations, or missing security updates.
+                        </p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>How does it happen?</h3>
+                                <p class="how">
+                                    Attackers exploit vulnerabilities in web applications, such as XSS (cross-site
+                                    scripting) or
+                                    SQL
+                                    injection, and in network protocols. By leveraging these weaknesses, they can access
+                                    sensitive
+                                    information, disrupt application functionality, or take control of the system.
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <h3>Consequences</h3>
+                                <p class="consequences">
+                                    Attacks on vulnerable web applications and networks can lead to data breaches,
+                                    website
+                                    hacks,
+                                    loss
+                                    of user trust, and financial losses. Organizations may also face penalties for
+                                    failing
+                                    to
+                                    meet
+                                    security standards.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Vulnerable-->
+
         </div>
         <!-- /Content-->
     </div>
